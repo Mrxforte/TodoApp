@@ -3,10 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:paddingVertical="10dp">
+    android:background="@drawable/task_item_bg"
+    android:paddingVertical="12dp"
+    android:layout_marginBottom="5dp">
 
     <CheckBox
         android:id="@+id/checkbox"
+        android:checked="true"
+        style="@style/BrandedCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

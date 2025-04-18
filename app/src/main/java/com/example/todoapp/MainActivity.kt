@@ -40,7 +40,6 @@ class MainActivity : AppCompatActivity() {
         binding.tasksListView.apply {
             adapter = myAdapter
             layoutManager = myLayoutManager
-            addItemDecoration(DividerItemDecoration(this@MainActivity, myLayoutManager.orientation))
         }
 
     }
